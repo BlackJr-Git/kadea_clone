@@ -47,8 +47,8 @@ nav{
 
 
 a:hover{
-    font-size: 22px;
-    transition: 1000ms;
+    transform: scale(1.3);
+    transition: 1s;
 
 }
 
@@ -131,7 +131,7 @@ ion-icon {
 
 .liste-landing {
     
-    align-items: center;
+   padding-left: 0px; 
 }
 
 .landing-text {
@@ -207,14 +207,15 @@ nav li {
 .img-formation:hover {   
     background-color: #E5203D;
     color: white;
-    width: 700px;
+    transform: scale(1.06);
     transition: 1s;
 }
 
 .img-formation:hover .img-form {   
     background-color: #E5203D;
     color: white;
-    width: 700px;
+    transform: scale(1.06);
+    transition: 1s;
     
 }
 
