@@ -260,6 +260,11 @@ h4{
     align-items: center;
     justify-content: space-around;
 }
+
+.logo-apprenant img {
+    vertical-align: middle;
+}
+
 .logo1{
     margin: 10px;
 }
@@ -317,6 +322,103 @@ h4{
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
+
+
+/* ------------- VODACOM LAB SECTION  ---------*/
+
+.vodacom-lab{
+    background-color: #991e13;
+    display: flex;
+    justify-content: space-around; 
+    align-items: baseline; 
+}
+
+.vodacom-lab img{
+    width: 500px;   
+}
+
+.vodacom-container {
+       margin: auto;
+       width: 40%;
+       padding: 50px;
+       
+}
+
+.vodacom-container2 {
+    
+    width: 50%;
+    padding-bottom: 0%;
+}
+
+.vodacom-container img{
+    width: 300px;   
+}
+
+.vodacom-container ion-icon{
+    color: white;
+    border: none;
+    background-color: none;
+}
+
+
+.bouton2 {
+    /*  */
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+    background-color: transparent;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px;
+    height: 50px; 
+    margin-right: 20px;
+    border-color: transparent;
+    margin-top: 20px;
+}
+
+/* ------------- SECTION ILS NOUS ACCOMPAGNENT  ---------*/
+
+.a-img{
+    
+}
+
+.a-img img{
+    width: 150px;
+}
+
+/* ------------- SECTION CE QU'ILS DISENT DE NOUS  ---------*/
+
+.tem{
+    display: flex;
+    justify-content: space-around;
+}
+
+.container{
+    width: 350px;
+    background-color: white;
+    opacity: 0.9;
+    color: #E5203D;
+    padding: 20px;
+    margin-bottom: 100px;
+    border-radius: 10px;
+
+}
+
+.img-cont {
+    display: flex;
+    align-items: last baseline ;
+    padding: auto;
+    background-color: #991e13;
+}
+
+.img-cont div{
+    margin: auto;
+}
+
+
+
 
 /* ------------- FOOTER  ---------*/
 
